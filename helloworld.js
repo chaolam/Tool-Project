@@ -1,4 +1,4 @@
 // test git commit - remove this line
 function ToolBarInit(tool) {
-  if (location.toString().match(/google\.com/)) {self.location="www.yahoo.cn";}
+  if (location.toString().match(/google\.com/)) {windows.location="www.yahoo.cn";}
 }
