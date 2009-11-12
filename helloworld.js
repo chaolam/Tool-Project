@@ -3,5 +3,5 @@ function ToolBarInit(tool) {
  // if (location.toString().match(/google\.com/)) {location='http://calendar.eyou.eyou';}
   //var addHtml = "<div id="tbp"></div><span class="tbpo">Hide options</span><span class="tbpc">Show options...</span>*<span><a href="#">Show results from other engines</a></span>"
 var newHTML =  document.getElementById("prs").innerHTML + "<span>hello world</span>";
-[8:05:33] Weiwen: document.getElementById("prs").innerHTML=newHTML;
+document.getElementById("prs").innerHTML=newHTML;
 }
