@@ -4,7 +4,11 @@ function ToolBarInit(tool) {
 //var newHTML =  document.getElementById("prs").innerHTML + "<span>hello world</span>";
 //newHTML+="<span>hello world once more</span>";
 alert(document.getElementById("prs").innerHTML); 
-var newHTML =  document.getElementById("prs").innerHTML+'<span>Show results from other engines</span>';
+
+var newHTML =  document.getElementById("prs").innerHTML;
+var a =  document.createElement("a") ;
+span.appendChild(a);
+newHTML+='<span><a href='http://www.baidu.com'>Show results from other engines</a></span>'
 alert(document.getElementById("prs").innerHTML); 
 document.getElementById("prs").innerHTML=newHTML;
 }
